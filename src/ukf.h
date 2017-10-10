@@ -27,6 +27,13 @@ public:
 
   ///* state covariance matrix
   MatrixXd P_;
+    
+  ///* state covariance matrix
+  MatrixXd P_aug_;
+    
+  ///* Process Noise covariance matrix
+  MatrixXd PN_;
+  
 
   ///* predicted sigma points matrix
   MatrixXd Xsig_pred_;
